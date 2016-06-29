@@ -6,7 +6,7 @@ Material Design Qt-Client Side Decorations
 [![License](https://img.shields.io/github/license/papyros/material-qt-decorations.svg)](https://github.com/papyros/material-qt-decorations)
 [![GitHub release](https://img.shields.io/github/release/papyros/material-qt-decorations.svg)](https://github.com/papyros/material-qt-decorations)
 [![Build Status](https://travis-ci.org/papyros/material-qt-decorations.svg?branch=develop)](https://travis-ci.org/papyros/material-qt-decorations)
-[![GitHub issues](https://img.shields.io/github/issues/papyros/material-qt-decorationsr.svg)](https://github.com/iBeliever/papyros/material-qt-decorations)
+[![GitHub issues](https://img.shields.io/github/issues/papyros/material-qt-decorations.svg)](https://github.com/papyros/material-qt-decorations)
 [![Maintained](https://img.shields.io/maintenance/yes/2016.svg)](https://github.com/papyros/material-qt-decorations/commits/develop)
 
 ### Installation

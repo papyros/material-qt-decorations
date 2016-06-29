@@ -39,11 +39,11 @@ find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
              Quick
              WaylandClient)
 
-# Hack because QtWayland doesn't set this at all
-set(Qt5WaylandClient_PRIVATE_INCLUDE_DIRS
-        "${_qt5WaylandClient_install_prefix}/include/qt/QtWaylandClient/${Qt5WaylandClient_VERSION}"
-        "${_qt5WaylandClient_install_prefix}/include/qt/QtWaylandClient/${Qt5WaylandClient_VERSION}/QtWaylandClient"
-    )
+# # Hack because QtWayland doesn't set this at all
+# set(Qt5WaylandClient_PRIVATE_INCLUDE_DIRS ${Qt5WaylandClient_PRIVATE_INCLUDE_DIRS}
+#         "${_qt5WaylandClient_install_prefix}/include/qt/QtWaylandClient/${Qt5WaylandClient_VERSION}"
+#         "${_qt5WaylandClient_install_prefix}/include/qt/QtWaylandClient/${Qt5WaylandClient_VERSION}/QtWaylandClient"
+#     )
 
 add_subdirectory(declarative)
 add_subdirectory(decorations)
