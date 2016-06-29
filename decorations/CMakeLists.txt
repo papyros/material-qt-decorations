@@ -14,5 +14,3 @@ target_link_libraries(material
 
 install(TARGETS material
         LIBRARY DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/qt/plugins/wayland-decoration-client)
-
-message("${Qt5WaylandClient_INCLUDE_DIRS} ${Qt5WaylandClient_PRIVATE_INCLUDE_DIRS}")
